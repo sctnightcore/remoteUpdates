@@ -48,3 +48,12 @@ Atualizações remotas
     
 # Conclusão
   - Se você seguiu corretamente todas as instruções acima, seu RemoteUpdate está funcionando e atualizando!
+  
+# Problemas comuns
+  - O app não mostra a lista:
+    - Atualize o IP DO HOST nas configurações do APP para o IP da sua maquina;
+    - Tenha certeza de que o XAMPP está ligado e que os Modulos Apache e MySQL estejam rodando;
+    - Seu telefone está na mesma rede que seu computador;
+    - No caso de acesso por rede externa, verifique suas configurações do PortFowarding;
+  - O armazém não está mostrando os items:
+    - Isso não é bem um problema, o armazém só estará disponivel no app depois que o personagem acessar o armazém no jogo;
