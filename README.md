@@ -1,5 +1,5 @@
 # remoteUpdates
-Remotely Updates about your bots activity
+Atualizações remotas
 
 # Features
   - Visualizar os Status dos bots, tais como:
