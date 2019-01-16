@@ -21,6 +21,8 @@ Remotely Updates about your bots activity
   - Comandos de Console:
     - Envio de comandos de console ( O Console ainda é muito primitivo, não tendo feedback das atividades, assim como retorno
       dos comandos enviados )
+  - MultiBot Suport
+    - Monitore multiplos bots ao mesmo tempo pelo app ( Até agora testei com 5 ao mesmo tempo sem problema nenhum, até então não sei se tem um limite )
       
 # Como Instalar
   - Instalando o PLUGIN:
