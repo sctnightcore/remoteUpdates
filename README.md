@@ -54,13 +54,12 @@ Atualizações remotas
     - Copie o arquivo "main.php" para dentro desta pasta;
   - Checando o XAMPP, PHP, PHPMYADMIN e MYSQL:
     - Acesse "localhost" de seu navegador, se aparecer a pagina de boas vindas do "xampp" o programa foi instalado corretamente;
-    - Acesse "localhost/phpmyadmin" de seu navedador, use o nome de utilizador "root", deixe sem senha ( a não ser que tenha alterado a       linha 23 do arquivo "config.inc.php" para "false", oque não aconcelho para usuarios basicos e também porque parte do PhP está um pouco hardcoded em relação ao DB :( my bad ) e clique em executar, se aparecer a
+    - Acesse "localhost/phpmyadmin" de seu navedador, use o nome de utilizador "root" ( a não ser que tenha configurado um diferente nas configurações do PhPMyAdmin, nesse caso, abra o arquivo "main.php" que copiamos a pouco e na linha 4 troque root para o login que você configurou ) deixe sem senha ( a não ser que tenha configurado uma nas configurações do PhPMyAdmin, nesse caso, abra o arquivo "main.php" que copiamos a pouco e na linha 5 coloque sua senha, salve e feche o arquivo ) e clique em executar, se aparecer a
     a pagina do MySQL, tudo está configurado corretamente;
   - Configurando o Aplicativo:
     - Instale o aplicativo "remoteUpdates.apk" em seu telefone
     - Clique em "CONFIGURAR" na superir direita;
     - No campo "IP DO HOST" coloque o endereço IP local da sua maquina e clique em "SALVAR CONFIGURAÇÕES";
-    - Clique em "CONFIGURAR" novamente para fechar as configurações;
     - Caso queira acessar atrávez de redes externas, ou seja, que não seja sua rede local, como outras redes WiFi ou 3G, será
     nescessario configurar o "PortFowarding" no seu modem, para redirecionar os pedidos HTTP da porta 80 para seu IP local;
     
