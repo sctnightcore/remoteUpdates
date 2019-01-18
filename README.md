@@ -19,7 +19,10 @@ Atualizações remotas
     - Botão para resetar as configurações
     - Botão para resetar o DataBase ( Criado para corrigir um erro no PhP da versão 1.0.0 )
     - Utilizar items do tipo usavel, como poções, asa de mosca, etc... a partir da tela do inventario ( Note que há um delay nessa utilização )
-
+  - Como Atualizar
+    - Substitua os arquivos "remoteUpdate.pl" e "main.php" das respectivas pastas pelas do repositorio.
+    - Reinstale o apk em seu telefone com o do repositorio.
+    - Seja feliz ( o mais dificil )
 # Features
   - Visualizar os Status dos bots, tais como:
     - HP
