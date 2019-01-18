@@ -80,3 +80,7 @@ Atualizações remotas
     - Isso não é bem um problema, o armazém só estará disponivel no app depois que o personagem acessar o armazém no jogo;
   - O inventario/armazém demora para atualizar
     - Isso foi um erro na versão 1.0.0 do PhP, vá em configurações e clique em "RESETAR DATABASE"
+  - Erro no console do OpenKore dizendo "Comando 'console_command_executado'"
+    - Só aparece uma uma única vez na primeira vez que o bot rodar com o plugin
+  - Erro no console do OpenKore dizendo "Comando 'connect'"
+    - Verifique se o XAMPP está ligado e os modulos PhP e MySQL estão ativos
