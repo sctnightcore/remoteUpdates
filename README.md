@@ -22,6 +22,7 @@ Atualizações remotas
   - Como Atualizar
     - Substitua os arquivos "remoteUpdate.pl" e "main.php" das respectivas pastas pelas do repositorio.
     - Reinstale o apk em seu telefone com o do repositorio.
+    - Após instalar o apk vá em CONFIGURAR e clique no botão RESETAR DATABASE
     - Seja feliz ( o mais dificil )
 # Features
   - Visualizar os Status dos bots, tais como:
