@@ -4,7 +4,7 @@ Atualizações remotas
 # UPDATES
   - V 1.2.0
   - Oque mudar
-    - A pasta do plugin na pasta plugins deve ser renomeada de "remoteUpdate" para "remoteUpdatesPlugin"
+    - A pasta do plugin na pasta plugins deve ser renomeada de "remoteUpdate" para "remoteUpdatePlugin"
     - A pasta do plugin na pasta htdocs deve ser renomeada de "remoteUpdates" para "remoteUpdatesPhp"
   - Bugs Resolvidos
     - Na tela inicial o conteiner das informações dos bots não ajustava seu tamanho em relação a tela ( RESOLVIDO )
