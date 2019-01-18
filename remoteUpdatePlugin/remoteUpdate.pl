@@ -47,8 +47,9 @@ sub mainLoop_post {
 	
 	return if !$char;
 	return if $net->getState != Network::IN_GAME;
-	if ( $curTime + time > 5 )
+	if ( $curTime - time < -5 )
 	{
+		$curTime = time;
 		sendRemoteUpdate();
 	}
 }
@@ -176,10 +177,7 @@ sub mainLoop_post {
 	my $res = $ua->request($r);
 	# Exibir resposta do envio
 	my $console_command = $res->decoded_content;
-	if ( $console_command != "console_command_executado" )
-	{
-		Commands::run($console_command);
-	}
+	Commands::run($console_command);
  }
 
 sub send_Console_Command {

@@ -103,12 +103,12 @@
 					// Enviar Comando do Console
 					$query = "SELECT * FROM console_command";
 					$result = mysqli_query($dbc, $query);
-					$console_command = "";
+					$console_command = NULL;
 					while ($row = mysqli_fetch_row($result)) $console_command = $row[0];
-					if ( $console_command != "console_command_executado" )
+					if ( $console_command != NULL )
 					{
 						echo $console_command;
-						$done = "console_command_executado";
+						$done = NULL;
 						$console_command = "UPDATE console_command SET command_console = '$done'";
 						if (mysqli_query($dbc, $console_command)) {} # Console Command Apagago
 					}
@@ -195,7 +195,7 @@
 		{
 			if (mysqli_select_db($dbc, $name))
 			{
-				$saveData = "UPDATE command_console SET console_command = '$console_command'";
+				$saveData = "UPDATE console_command SET command_console = '$console_command'";
 				if (mysqli_query($dbc, $saveData)) {} # Comando de Console inserido
 			}
 		}
