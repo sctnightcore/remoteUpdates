@@ -1,6 +1,22 @@
 # remoteUpdates
 Atualizações remotas
 
+# UPDATES
+  - V 1.2.0
+  - Bugs Resolvidos
+    - Na tela inicial o conteiner das informações dos bots não ajustava seu tamanho em relação a tela ( RESOLVIDO )
+    - Os botões de inventario, status e console não estavam acessiveis devido ao erro anterior ( RESOLVIDO )
+    - Mensagem na tela do OpenKore sobre uma variavel "$x" ( RESOLVIDO )
+    - O aplicativo não girava junto com o telefone ( RESOLVIDO )
+  - Bugs Conhecidos mas não resolvidos
+    - O Item não tem sua quantidade atualizada quando usado pelo Inventario ( EM ANDAMENTO )
+    - Os Item no inventario/armazém não ajustão seu tamanho com a tela ( EM ANDAMENTO )
+  - Novas Funções
+    - Salvar 2 IPs diferentes, um para uso local e outro pra uso em rede externa, basta marcar a caixa abaixo dos IPs para usar o segundo endereço de IP para acessar atrávez da 3G ou WiFi de outro local ( DISPONIVEL APENAS QUANDO O PORTFOWARDING ESTIVER CONFIGURADO )
+    - Botão para resetar as configurações
+    - Botão para resetar o DataBase ( Criado para corrigir um erro no PhP da versão 1.0.0 )
+    - Utilizar items do tipo usavel, como poções, asa de mosca, etc... a partir da tela do inventario ( Note que há um delay nessa utilização )
+
 # Features
   - Visualizar os Status dos bots, tais como:
     - HP
@@ -57,3 +73,5 @@ Atualizações remotas
     - No caso de acesso por rede externa, verifique suas configurações do PortFowarding;
   - O armazém não está mostrando os items:
     - Isso não é bem um problema, o armazém só estará disponivel no app depois que o personagem acessar o armazém no jogo;
+  - O inventario/armazém demora para atualizar
+    - Isso foi um erro na versão 1.0.0 do PhP, vá em configurações e clique em "RESETAR DATABASE"
